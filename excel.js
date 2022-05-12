@@ -223,7 +223,7 @@
         }
 
     }
-    customElements.require("com-fd-djaja-sap-sac-excel1", Excel);
+    customElements.require("com-fd-ratish-sap-sac-excel1", Excel);
 
     // UTILS
     function loadthis(that, changedProperties) {
