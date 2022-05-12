@@ -135,7 +135,7 @@
         onCustomWidgetAfterUpdate(changedProperties) {
             var that = this;
 
-            let xlsxjs = "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/File_Upload_Custom_Widget%2Fxlsx.js?alt=media&token=542f43e4-300c-41bb-a92f-6365bb8250c4";
+            let xlsxjs = "https://raw.githubusercontent.com/ratishraj/CustomWidget/master/xlsx.js";
             console.log("xlsx variable initialized");
             async function LoadLibs() {
                 try {
@@ -405,7 +405,7 @@
 
                                         console.log(result_final);
                                         console.log("before loaddata function");
-                                        oModel.loadData("https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/File_Upload_Custom_Widget%2FprocessData.xsjs?alt=media&token=ce70cdf1-0548-4676-89f0-6a1243dbded2", JSON.stringify(result_final), true, 'POST', false, true, oHeaders);
+                                        oModel.loadData("https://raw.githubusercontent.com/ratishraj/CustomWidget/master/processData.xsjs", JSON.stringify(result_final), true, 'POST', false, true, oHeaders);
 
                                         oModel.attachRequestCompleted(function() {
                                             var result = oModel.getData();
