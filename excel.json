@@ -13,14 +13,14 @@
     {
       "kind": "main",
       "tag": "com-fd-djaja-sap-sac-excel1",
-      "url": "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/File_Upload_Custom_Widget%2Fexcel.js?alt=media&token=354a1bda-cc61-48ea-9346-a162d6c8ada7S",
+      "url": "https://raw.githubusercontent.com/ratishraj/CustomWidget/master/excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-fd-djaja-sap-sac-excel-aps1",
-      "url": "https://firebasestorage.googleapis.com/v0/b/widgets-13c12.appspot.com/o/File_Upload_Custom_Widget%2Faps_excel.js?alt=media&token=f2d0c8f1-ba2e-4ebc-9e7c-eff03388ec2a",
+      "url": "https://raw.githubusercontent.com/ratishraj/CustomWidget/master/aps_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
